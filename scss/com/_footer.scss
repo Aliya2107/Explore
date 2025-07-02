@@ -1,0 +1,49 @@
+.footer {
+    border-top: 1px solid #FFFFFF26;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 70px;
+    }
+
+    &__text {
+        font-size: 16px;
+        color: #FFFFFFE5;
+        margin-top: 20px;
+    }
+
+    &__description {
+        font-size: 14px;
+        color: #FFFFFF8C;
+        max-width: 260px;
+        line-height: 25px;
+    }
+
+    &__title {
+        font-size: 20px;
+        color: #FFFFFFE5;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    &__contact {
+        font-size: 16px;
+        color: grey;
+
+
+        a {
+            color: grey;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 0;
+        gap: 10px;
+    }
+}
